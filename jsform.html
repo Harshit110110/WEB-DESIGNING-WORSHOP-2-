@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Hello World</title>
+<script>
+function showForm(){
+    document.getElementById("studentForm").style.display = "block";}
+</script>
+</head>
+<body>
+<button onclick="showForm()">Show Form</button>
+<br><br>
+<form id="studentForm" style="display:none;">
+    <label>Name:</label><br>
+    <input type="text" name="name"><br><br>
+    <label>Class:</label><br>
+    <input type="text" name="class"><br><br>
+    <label>ID Number:</label><br>
+    <input type="number" name="id"><br><br>
+    <button type="submit">Submit</button>
+</form>
